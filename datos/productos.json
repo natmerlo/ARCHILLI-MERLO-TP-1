@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "epoca": "los-80",
+    "disco": "Thriller",
+    "artista": "Michael Jackson",
+    "publicacion": 1982,
+    "genero": "Pop, R&B",
+    "sello": "Epic Records",
+    "portada": "thriller_portada.jpg",
+    "precio": 1600
+  },
+  {
+    "id": 2,
+    "epoca": "los-80",
+    "disco": "Like a Virgin",
+    "artista": "Madonna",
+    "publicacion": 1984,
+    "genero": "Pop",
+    "sello": "Sire Records",
+    "portada": "like_a_virgen_portada.jpg",
+    "precio": 1600
+  },
+  {
+    "id": 3,
+    "epoca": "los-80",
+    "disco": "The Joshua Tree",
+    "artista": "U2",
+    "publicacion": 1987,
+    "genero": "Rock",
+    "sello": "Island Records",
+    "portada": "u2_portada.jpg",
+    "precio": 1600
+  },
+  {
+    "id": 4,
+    "epoca": "los-90",
+    "disco": "Nevermind",
+    "artista": "Nirvana",
+    "publicacion": 1991,
+    "genero": "Rock alternativo, Grunge",
+    "sello": "DGC Records",
+    "portada": "nevermind_portada.jpg",
+    "precio": 1600
+  },
+  {
+    "id": 5,
+    "epoca": "los-90",
+    "disco": "OK Computer",
+    "artista": "Radiohead",
+    "publicacion": 1997,
+    "genero": "Rock alternativo, Experimental",
+    "sello": "Parlophone, Capitol Records",
+    "portada": "ok_computer_portada.jpg",
+    "precio": 1600
+  },
+  {
+    "id": 6,
+    "epoca": "los-90",
+    "disco": "Homework",
+    "artista": "Daft Punk",
+    "publicacion": 1997,
+    "genero": "Música electrónica, House",
+    "sello": "Virgin Records",
+    "portada": "homework_portada.webp",
+    "precio": 1600
+  },
+  {
+    "id": 7,
+    "epoca": "los-2000",
+    "disco": "The Marshall Mathers LP",
+    "artista": "Eminem",
+    "publicacion": 2000,
+    "genero": "Hip-Hop, Rap",
+    "sello": "Aftermath Entertainment",
+    "portada": "marshall_matters_portada.jpg",
+    "precio": 1600
+  },
+  {
+    "id": 8,
+    "epoca": "los-2000",
+    "disco": "American Idiot",
+    "artista": "Green Day",
+    "publicacion": 2004,
+    "genero": "Punk rock, Rock alternativo",
+    "sello": "Reprise Records",
+    "portada": "american_idiot_portada.webp",
+    "precio": 1600
+  },
+  {
+    "id": 9,
+    "epoca": "los-2000",
+    "disco": "Back to Black",
+    "artista": "Amy Winehouse",
+    "publicacion": 2006,
+    "genero": "Soul, R&B, Jazz",
+    "sello": " Island Records",
+    "portada": "black_to_black_portada.jpg",
+    "precio": 1600
+  }    
+]
