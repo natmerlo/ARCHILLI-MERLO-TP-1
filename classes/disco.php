@@ -43,9 +43,9 @@ class Disco {
     /**
      * Devuelve el catalogo de los discos publicados en una epoca en particular
      * @param string $epoca Un string con el nombre de la epoca
-     * @return array Un array de objetos Disco 
+     * @return Disco[] Un array de objetos Disco 
      */
-    public function discos_por_epoca(string $epoca):array{
+    public function catalogo_por_epoca(string $epoca):array{
         $catalogoXepoca = [];
         $catalogo = $this->catalogoCompleto();
 
@@ -62,7 +62,7 @@ class Disco {
      * @param int $idDisco El ID del disco
      * @return Disco Un objeto Disco o null
      */
-    public function discos_por_id(int $idDisco):?Disco{
+    public function catalogo_por_id(int $idDisco):?Disco{
         $catalogo = $this->catalogoCompleto();
 
         foreach ($catalogo as $d) {

@@ -1,6 +1,6 @@
 <?PHP
 // Incluye catalogo de productos
-require_once 'includes/catalogo.php';
+//require_once 'includes/catalogo.php';
 
 // Verifica si el parámetro 'ep' está presente en la URL. Si está asigna su valor a la variable $epocaSeleccionada, de lo contrario, establece $epocaSeleccionada en FALSE.
 $epocaSeleccionada = isset($_GET['ep']) ? $_GET['ep'] : FALSE;
@@ -9,8 +9,15 @@ $epocaSeleccionada = isset($_GET['ep']) ? $_GET['ep'] : FALSE;
 $titulo = ucwords(str_replace("-", " ", $epocaSeleccionada), " \t\r\n\f\v-");
 
 // Llama a la función catalogo_x_epoca() y pasa la variable $epocaSeleccionada como argumento.
-$catalogo = catalogo_x_epoca($epocaSeleccionada);
+//$catalogo = catalogo_x_epoca($epocaSeleccionada);
 
+$objetoDisco = new Disco();
+
+$catalogo = $objetoDisco->catalogo_por_epoca($epocaSeleccionada);
+
+// echo "<pre>";
+// print_r($catalogo);
+// echo "</pre>";
 ?>
 
 <div class=" d-flex justify-content-center p-5">
@@ -28,21 +35,21 @@ $catalogo = catalogo_x_epoca($epocaSeleccionada);
 
                         <div class="col-12 col-md-4">
                             <div class="card mb-3">
-                                <img src="img/covers/<?= $disco['portada'] ?>" class="card-img-top" alt="Portada de <?= $disco['disco'] ?>">
+                                <img src="img/covers/<?= $disco->portada ?>" class="card-img-top" alt="Portada de <?= $disco->disco ?>">
                                 <div class="card-body">
-                                    <p class="fs-6 m-0 fw-bold text-danger"><?= $disco['genero'] ?></p>
-                                    <h2 class="card-title fs-4"><?= $disco['disco'] ?></h2>
+                                    <p class="fs-6 m-0 fw-bold text-danger"><?= $disco->genero ?></p>
+                                    <h2 class="card-title fs-4"><?= $disco->disco ?></h2>
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><span class="fw-bold">Artista:</span> <?= $disco['artista'] ?></li>
-                                    <li class="list-group-item"><span class="fw-bold">Sello:</span> <?= $disco['sello'] ?></li>
-                                    <li class="list-group-item"><span class="fw-bold">Publicación:</span> <?= $disco['publicacion'] ?></li>
+                                    <li class="list-group-item"><span class="fw-bold">Artista:</span> <?= $disco->artista ?></li>
+                                    <li class="list-group-item"><span class="fw-bold">Sello:</span> <?= $disco->sello ?></li>
+                                    <li class="list-group-item"><span class="fw-bold">Publicación:</span> <?= $disco->publicacion ?></li>
                                 </ul>
                                 <div class="card-body">
                                     <!-- formatear precios -->
-                                    <div class="fs-3 mb-3 fw-bold text-center text-danger">$<?= number_format($disco['precio'], 2, ",", ".") ?></div>
+                                    <div class="fs-3 mb-3 fw-bold text-center text-danger">$<?= $disco->precio_formateado() ?></div>
                                     <!-- link a pagina de producto -->
-                                    <a href="index.php?sec=producto&id=<?= $disco['id']?>" class="btn btn-danger w-100 fw-bold">VER MÁS</a>
+                                    <a href="index.php?sec=producto&id=<?= $disco->id?>" class="btn btn-danger w-100 fw-bold">VER MÁS</a>
                                 </div>
 
                             </div>

@@ -1,4 +1,6 @@
 <?PHP
+require_once 'classes/Disco.php';
+
 // Array asociativo de secciones validas
 $secciones_validas = [
     "inicio" => [
