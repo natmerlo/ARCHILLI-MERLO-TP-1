@@ -5,7 +5,7 @@
     "disco": "Thriller",
     "artista": "Michael Jackson",
     "publicacion": 1982,
-    "genero": ["Pop", "R&B"],
+    "genero": ["Pop"],
     "sello": "Epic Records",
     "portada": "thriller_portada.jpg",
     "precio": 1600
