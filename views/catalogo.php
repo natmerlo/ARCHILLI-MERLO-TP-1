@@ -42,7 +42,7 @@ $catalogo = $objetoDisco->catalogoCompleto();
                                     <li class="list-group-item"><span class="fw-bold">Artista:</span> <?= $disco->artista ?></li>
                                     <li class="list-group-item"><span class="fw-bold">Sello:</span> <?= $disco->sello ?></li>
                                     <li class="list-group-item"><span class="fw-bold">Publicación:</span> <?= $disco->publicacion ?></li>
-                                    <li class="list-group-item"><span class="fw-bold">Generos:</span></li>
+                                    <li class="list-group-item"><span class="fw-bold">Generos</span></li>
                                     <li class="list-group-item">
                                         <ul class="list-group list-group-flush">
                                         <?PHP foreach ($disco->genero as $genero) { ?>

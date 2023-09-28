@@ -58,6 +58,29 @@ class Disco {
     }
 
     /**
+     * Devuelve el catalogo de los discos publicados en una epoca en particular
+     * @param string $genero Un string con el nombre del genero seleccionado
+     * @return Disco[] Un array de objetos Disco 
+     */
+    public function catalogo_por_genero(string $genero):array{
+        $catalogoXgenero = [];
+        $catalogo = $this->catalogoCompleto();
+
+        foreach ($catalogo as $d) {
+        
+            foreach ($d->genero as $generos){
+
+                if ($genero == strtolower($generos)) { 
+
+                    $catalogoXgenero[] = $d;
+                }
+            }
+            
+        }
+        return $catalogoXgenero;
+    }
+
+    /**
      * Devuelve los datos de un disco en particular 
      * @param int $idDisco El ID del disco
      * @return Disco Un objeto Disco o null

@@ -3,20 +3,20 @@
 //require_once 'includes/catalogo.php';
 
 // Verifica si el parámetro 'ep' está presente en la URL. Si está asigna su valor a la variable $epocaSeleccionada, de lo contrario, establece $epocaSeleccionada en FALSE.
-$epocaSeleccionada = isset($_GET['ep']) ? $_GET['ep'] : FALSE;
+$generoSeleccionado = isset($_GET['gen']) ? $_GET['gen'] : FALSE;
 
 // Formatea los titulos con mayusculas y espacios.
-$titulo = ucwords(str_replace("-", " ", $epocaSeleccionada), " \t\r\n\f\v-");
+$titulo = ucwords(str_replace("-", " ", $generoSeleccionado), " \t\r\n\f\v-");
 
 // Llama a la función catalogo_x_epoca() y pasa la variable $epocaSeleccionada como argumento.
 //$catalogo = catalogo_x_epoca($epocaSeleccionada);
 
 $objetoDisco = new Disco();
 
-$catalogo = $objetoDisco->catalogo_por_epoca($epocaSeleccionada);
+$catalogo = $objetoDisco->catalogo_por_genero($generoSeleccionado);
 
 // echo "<pre>";
-// print_r($catalogo);
+// print_r($generoSeleccionado);
 // echo "</pre>";
 ?>
 
@@ -68,7 +68,7 @@ $catalogo = $objetoDisco->catalogo_por_epoca($epocaSeleccionada);
             <!-- Si el catalogo está vacio -->
             <?PHP } else { ?>
                 <div class="row">
-                    <div class="col-12 text-danger text-center h1"> NO SE ENCONTRARON PRODUCTOS DE ESA EPOCA</div>
+                    <div class="col-12 text-danger text-center h1"> NO SE ENCONTRARON PRODUCTOS DE ES GENERO</div>
                 </div>
             <?PHP }  ?>
         </div>

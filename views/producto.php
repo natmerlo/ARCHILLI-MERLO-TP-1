@@ -25,7 +25,6 @@ $disco = $objetoDisco->catalogo_por_id($id);
                         </div>
                         <div class="col-md-7 d-flex flex-column p-3">
                             <div class="card-body flex-grow-0">
-                                <p class="fs-4 m-0 text-danger"><?= $disco->genero;?></p>
                                 <h1 class="card-title fw-bold mb-4"><?= $disco->disco; ?></h1>
                             </div>
 
@@ -33,6 +32,14 @@ $disco = $objetoDisco->catalogo_por_id($id);
                                 <li class="list-group-item"><span class="fw-bold">Artista:</span> <?= $disco->artista; ?></li>
                                 <li class="list-group-item"><span class="fw-bold">Sello:</span> <?= $disco->sello; ?></li>
                                 <li class="list-group-item"><span class="fw-bold">Publicación:</span> <?= $disco->publicacion; ?></li>
+                                <li class="list-group-item"><span class="fw-bold">Generos</span></li>
+                                <li class="list-group-item">
+                                    <ul class="list-group list-group-flush">
+                                        <?PHP foreach ($disco->genero as $genero) { ?>
+                                            <li class="list-group-item"><?= $genero ?></li>
+                                        <?PHP } ?>
+                                    </ul>
+                                </li>
                             </ul>
 
                             <div class="card-body flex-grow-0 mt-auto">
