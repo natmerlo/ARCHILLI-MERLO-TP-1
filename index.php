@@ -18,6 +18,9 @@ $secciones_validas = [
     "producto" => [
         "titulo" => "Detalle de producto"
     ],
+    "catalogo" => [
+        "titulo" => "Catalogo Completo"
+    ]
 ];
 
 // Verifica si el parámetro 'sec' está presente en la URL. Si está asigna su valor a la variable $seccion, de lo contrario, establece $seccion con el valor 'inicio'.
@@ -72,6 +75,9 @@ if (!array_key_exists($seccion, $secciones_validas)) {
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="index.php?sec=nosotros">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.php?sec=catalogo">CATALOGO</a>
                     </li>
 
                     <li class="nav-item">
