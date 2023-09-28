@@ -56,44 +56,44 @@ if (!array_key_exists($seccion, $secciones_validas)) {
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg bg-light px-5 py-3">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="img/disco-musica.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
-                RetroSound
+                <img src="img/disco-musica.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> RetroSound
             </a>
             
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
             </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <!-- En las URL se estable el par sec=home para secciones / ep=los-80 para epocas-->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.php?sec=inicio">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="index.php?sec=nosotros">NOSOTROS</a>
+                        <a class="nav-link active" aria-current="page" href="index.php?sec=inicio">INICIO</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="index.php?sec=catalogo">CATALOGO</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?sec=discos&ep=los-80">Los 80'</a>
+                        <a class="nav-link" href="index.php?sec=nosotros">NOSOTROS</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php?sec=discos&ep=los-90">Los 90'</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php?sec=discos&ep=los-2000">Los 2000</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        EPOCAS
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.php?sec=discos&ep=los-80">Los 80'</a></li>
+                            <li><a class="dropdown-item" href="index.php?sec=discos&ep=los-90">Los 90'</a></li>
+                            <li><a class="dropdown-item" href="index.php?sec=discos&ep=los-2000">Los 2000</a></li>
+                        </ul>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link active" href="index.php?sec=envios">ENVIOS</a>
                     </li>
-
                 </ul>
             </div>
         </div>
