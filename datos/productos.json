@@ -5,7 +5,7 @@
     "disco": "Thriller",
     "artista": "Michael Jackson",
     "publicacion": 1982,
-    "genero": "Pop, R&B",
+    "genero": ["Pop", "R&B"],
     "sello": "Epic Records",
     "portada": "thriller_portada.jpg",
     "precio": 1600
@@ -16,7 +16,7 @@
     "disco": "Like a Virgin",
     "artista": "Madonna",
     "publicacion": 1984,
-    "genero": "Pop",
+    "genero": ["Pop"],
     "sello": "Sire Records",
     "portada": "like_a_virgen_portada.jpg",
     "precio": 1600
@@ -27,7 +27,7 @@
     "disco": "The Joshua Tree",
     "artista": "U2",
     "publicacion": 1987,
-    "genero": "Rock",
+    "genero": ["Rock"],
     "sello": "Island Records",
     "portada": "u2_portada.jpg",
     "precio": 1600
@@ -38,7 +38,7 @@
     "disco": "Nevermind",
     "artista": "Nirvana",
     "publicacion": 1991,
-    "genero": "Rock alternativo, Grunge",
+    "genero": ["Rock alternativo", "Grunge"],
     "sello": "DGC Records",
     "portada": "nevermind_portada.jpg",
     "precio": 1600
@@ -49,7 +49,7 @@
     "disco": "OK Computer",
     "artista": "Radiohead",
     "publicacion": 1997,
-    "genero": "Rock alternativo, Experimental",
+    "genero": ["Rock alternativo", "Experimental"],
     "sello": "Parlophone, Capitol Records",
     "portada": "ok_computer_portada.jpg",
     "precio": 1600
@@ -60,7 +60,7 @@
     "disco": "Homework",
     "artista": "Daft Punk",
     "publicacion": 1997,
-    "genero": "Música electrónica, House",
+    "genero": ["Música electrónica", "House"],
     "sello": "Virgin Records",
     "portada": "homework_portada.webp",
     "precio": 1600
@@ -71,7 +71,7 @@
     "disco": "The Marshall Mathers LP",
     "artista": "Eminem",
     "publicacion": 2000,
-    "genero": "Hip-Hop, Rap",
+    "genero": ["Hip-Hop", "Rap"],
     "sello": "Aftermath Entertainment",
     "portada": "marshall_matters_portada.jpg",
     "precio": 1600
@@ -82,7 +82,7 @@
     "disco": "American Idiot",
     "artista": "Green Day",
     "publicacion": 2004,
-    "genero": "Punk rock, Rock alternativo",
+    "genero": ["Punk rock", "Rock alternativo"],
     "sello": "Reprise Records",
     "portada": "american_idiot_portada.webp",
     "precio": 1600
@@ -93,7 +93,7 @@
     "disco": "Back to Black",
     "artista": "Amy Winehouse",
     "publicacion": 2006,
-    "genero": "Soul, R&B, Jazz",
+    "genero": ["Soul", "R&B", "Jazz"],
     "sello": " Island Records",
     "portada": "black_to_black_portada.jpg",
     "precio": 1600

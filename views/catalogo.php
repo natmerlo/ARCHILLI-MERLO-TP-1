@@ -35,13 +35,21 @@ $catalogo = $objetoDisco->catalogoCompleto();
                             <div class="card mb-3">
                                 <img src="img/covers/<?= $disco->portada ?>" class="card-img-top" alt="Portada de <?= $disco->disco ?>">
                                 <div class="card-body">
-                                    <p class="fs-6 m-0 fw-bold text-danger"><?= $disco->genero ?></p>
+                                    
                                     <h2 class="card-title fs-4"><?= $disco->disco ?></h2>
                                 </div>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item"><span class="fw-bold">Artista:</span> <?= $disco->artista ?></li>
                                     <li class="list-group-item"><span class="fw-bold">Sello:</span> <?= $disco->sello ?></li>
                                     <li class="list-group-item"><span class="fw-bold">Publicación:</span> <?= $disco->publicacion ?></li>
+                                    <li class="list-group-item"><span class="fw-bold">Generos:</span></li>
+                                    <li class="list-group-item">
+                                        <ul class="list-group list-group-flush">
+                                        <?PHP foreach ($disco->genero as $genero) { ?>
+                                            <li class="list-group-item"><?= $genero ?></li>
+                                            <?PHP } ?>
+                                        </ul>
+                                    </li>
                                 </ul>
                                 <div class="card-body">
                                     <!-- formatear precios -->
