@@ -24,15 +24,15 @@ $catalogo = $objetoDisco->catalogoCompleto();
 
                         <div class="col-12 col-md-4">
                             <div class="card mb-3">
-                                <img src="img/covers/<?= $disco->portada ?>" class="card-img-top" alt="Portada de <?= $disco->disco ?>">
+                                <img src="img/covers/<?= $disco->getPortada() ?>" class="card-img-top" alt="Portada de <?= $disco->getDisco() ?>">
                                 <div class="card-body">
                                     
-                                    <h2 class="card-title fs-4"><?= $disco->disco ?></h2>
+                                    <h2 class="card-title fs-4"><?= $disco->getDisco() ?></h2>
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><span class="fw-bold">Artista:</span> <?= $disco->artista ?></li>
-                                    <li class="list-group-item"><span class="fw-bold">Sello:</span> <?= $disco->sello ?></li>
-                                    <li class="list-group-item"><span class="fw-bold">Publicación:</span> <?= $disco->publicacion ?></li>
+                                    <li class="list-group-item"><span class="fw-bold">Artista:</span> <?= $disco->getArtista() ?></li>
+                                    <li class="list-group-item"><span class="fw-bold">Sello:</span> <?= $disco->getSello() ?></li>
+                                    <li class="list-group-item"><span class="fw-bold">Publicación:</span> <?= $disco->getPublicacion() ?></li>
                                     <li class="list-group-item"><span class="fw-bold">Generos</span></li>
                                     <li class="list-group-item">
                                         <ul class="list-group list-group-flush">
