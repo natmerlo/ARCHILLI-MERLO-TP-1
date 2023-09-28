@@ -106,7 +106,7 @@ if (!array_key_exists($seccion, $secciones_validas)) {
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=grunge">Grunge</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=experimental">Experimental</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=música electrónica">Música Electrónica</a></li>
-                            <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=house">house</a></li>
+                            <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=house">House</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=hip-hop">Hip-Hop</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=rap">Rap</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=punk rock">Punk Rock</a></li>
@@ -135,7 +135,6 @@ if (!array_key_exists($seccion, $secciones_validas)) {
 
     <!-- footer -->
     <!-- <footer class="bg-secondary text-light text-center p-2">
-        
         
 
     </footer> -->
@@ -167,11 +166,17 @@ if (!array_key_exists($seccion, $secciones_validas)) {
             <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                 <h5 class="text-uppercase">Natalia Merlo</h5>
 
-                <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-                aliquam voluptatem veniam, est atque cumque eum delectus sint!
-                </p>
+                <ul>
+                    <li>
+                        DNI: 38.892.597
+                    </li>
+                    <li>
+                        Correo: natalia.merlo@davinci.edu.ar
+                    </li>
+                    <li>
+                        Edad: 28 años
+                    </li>
+                </ul>
             </div>
             <!--Grid column-->
             </div>
