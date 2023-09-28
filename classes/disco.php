@@ -1,14 +1,14 @@
 <?PHP
 class Disco {
-    public $id;
-    public $epoca;
-    public $disco;
-    public $artista;
-    public $publicacion;
-    public $genero;
-    public $sello;
-    public $portada;
-    public $precio;
+    private $id;
+    private $epoca;
+    private $disco;
+    private $artista;
+    private $publicacion;
+    private $genero;
+    private $sello;
+    private $portada;
+    private $precio;
 
     /**
      * Devuelve el catalogo de discos completo
@@ -103,5 +103,78 @@ class Disco {
     public function precio_formateado():string{
         return number_format($this->precio, 2, ",", ".");
     }
+
+    /**
+     * Get the value of id
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Get the value of epoca
+     */
+    public function getEpoca()
+    {
+        return $this->epoca;
+    }
+
+    /**
+     * Get the value of disco
+     */
+    public function getDisco()
+    {
+        return $this->disco;
+    }
+
+    /**
+     * Get the value of artista
+     */
+    public function getArtista()
+    {
+        return $this->artista;
+    }
+
+    /**
+     * Get the value of publicacion
+     */
+    public function getPublicacion()
+    {
+        return $this->publicacion;
+    }
+
+    /**
+     * Get the value of genero
+     */
+    public function getGenero()
+    {
+        return $this->genero;
+    }
+
+    /**
+     * Get the value of sello
+     */
+    public function getSello()
+    {
+        return $this->sello;
+    }
+
+    /**
+     * Get the value of portada
+     */
+    public function getPortada()
+    {
+        return $this->portada;
+    }
+
+    /**
+     * Get the value of precio
+     */
+    public function getPrecio()
+    {
+        return $this->precio;
+    }
+
 
 }

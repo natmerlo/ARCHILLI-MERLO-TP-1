@@ -1,15 +1,12 @@
 <?PHP
-// Incluye catalogo de productos
-//require_once 'includes/catalogo.php';
 
 // Verifica si el parámetro 'ep' está presente en la URL. Si está asigna su valor a la variable $epocaSeleccionada, de lo contrario, establece $epocaSeleccionada en FALSE.
-$generoSeleccionado = isset($_GET['gen']) ? $_GET['gen'] : FALSE;
+// $generoSeleccionado = isset($_GET['gen']) ? $_GET['gen'] : FALSE;
+$generoSeleccionado = $_GET['gen'] ?? FALSE;
+
 
 // Formatea los titulos con mayusculas y espacios.
 $titulo = ucwords(str_replace("-", " ", $generoSeleccionado), " \t\r\n\f\v-");
-
-// Llama a la función catalogo_x_epoca() y pasa la variable $epocaSeleccionada como argumento.
-//$catalogo = catalogo_x_epoca($epocaSeleccionada);
 
 $objetoDisco = new Disco();
 
@@ -35,18 +32,18 @@ $catalogo = $objetoDisco->catalogo_por_genero($generoSeleccionado);
 
                         <div class="col-12 col-md-4">
                             <div class="card mb-3">
-                                <img src="img/covers/<?= $disco->portada ?>" class="card-img-top" alt="Portada de <?= $disco->disco ?>">
+                                <img src="img/covers/<?= $disco->getPortada() ?>" class="card-img-top" alt="Portada de <?= $disco->getDisco() ?>">
                                 <div class="card-body">
-                                    <h2 class="card-title fs-4"><?= $disco->disco ?></h2>
+                                    <h2 class="card-title fs-4"><?= $disco->getDisco() ?></h2>
                                 </div>
                                 <ul class="list-group list-group-flush">
-                                    <li class="list-group-item"><span class="fw-bold">Artista:</span> <?= $disco->artista ?></li>
-                                    <li class="list-group-item"><span class="fw-bold">Sello:</span> <?= $disco->sello ?></li>
-                                    <li class="list-group-item"><span class="fw-bold">Publicación:</span> <?= $disco->publicacion ?></li>
+                                    <li class="list-group-item"><span class="fw-bold">Artista:</span> <?= $disco->getArtista() ?></li>
+                                    <li class="list-group-item"><span class="fw-bold">Sello:</span> <?= $disco->getSello() ?></li>
+                                    <li class="list-group-item"><span class="fw-bold">Publicación:</span> <?= $disco->getPublicacion() ?></li>
                                     <li class="list-group-item"><span class="fw-bold">Generos</span></li>
                                     <li class="list-group-item">
                                         <ul class="list-group list-group-flush">
-                                        <?PHP foreach ($disco->genero as $genero) { ?>
+                                        <?PHP foreach ($disco->getGenero() as $genero) { ?>
                                             <li class="list-group-item"><?= $genero ?></li>
                                             <?PHP } ?>
                                         </ul>
@@ -56,7 +53,7 @@ $catalogo = $objetoDisco->catalogo_por_genero($generoSeleccionado);
                                     <!-- formatear precios -->
                                     <div class="fs-3 mb-3 fw-bold text-center text-danger">$<?= $disco->precio_formateado() ?></div>
                                     <!-- link a pagina de producto -->
-                                    <a href="index.php?sec=producto&id=<?= $disco->id?>" class="btn btn-danger w-100 fw-bold">VER MÁS</a>
+                                    <a href="index.php?sec=producto&id=<?= $disco->getId()?>" class="btn btn-danger w-100 fw-bold">VER MÁS</a>
                                 </div>
 
                             </div>

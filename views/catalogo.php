@@ -1,14 +1,5 @@
 <?PHP
 
-// // Verifica si el parámetro 'ep' está presente en la URL. Si está asigna su valor a la variable $epocaSeleccionada, de lo contrario, establece $epocaSeleccionada en FALSE.
-// $epocaSeleccionada = isset($_GET['ep']) ? $_GET['ep'] : FALSE;
-
-// // Formatea los titulos con mayusculas y espacios.
-// $titulo = ucwords(str_replace("-", " ", $epocaSeleccionada), " \t\r\n\f\v-");
-
-// Llama a la función catalogo_x_epoca() y pasa la variable $epocaSeleccionada como argumento.
-//$catalogo = catalogo_x_epoca($epocaSeleccionada);
-
 $objetoDisco = new Disco();
 
 $catalogo = $objetoDisco->catalogoCompleto();
@@ -45,7 +36,7 @@ $catalogo = $objetoDisco->catalogoCompleto();
                                     <li class="list-group-item"><span class="fw-bold">Generos</span></li>
                                     <li class="list-group-item">
                                         <ul class="list-group list-group-flush">
-                                        <?PHP foreach ($disco->genero as $genero) { ?>
+                                        <?PHP foreach ($disco->getGenero() as $genero) { ?>
                                             <li class="list-group-item"><?= $genero ?></li>
                                             <?PHP } ?>
                                         </ul>
@@ -55,7 +46,7 @@ $catalogo = $objetoDisco->catalogoCompleto();
                                     <!-- formatear precios -->
                                     <div class="fs-3 mb-3 fw-bold text-center text-danger">$<?= $disco->precio_formateado() ?></div>
                                     <!-- link a pagina de producto -->
-                                    <a href="index.php?sec=producto&id=<?= $disco->id?>" class="btn btn-danger w-100 fw-bold">VER MÁS</a>
+                                    <a href="index.php?sec=producto&id=<?= $disco->getId()?>" class="btn btn-danger w-100 fw-bold">VER MÁS</a>
                                 </div>
 
                             </div>
