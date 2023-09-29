@@ -102,15 +102,8 @@ if (!array_key_exists($seccion, $secciones_validas)) {
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=pop">Pop</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=rock">Rock</a></li>
-                            <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=rock alternativo">Rock Alterntivo</a></li>
-                            <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=grunge">Grunge</a></li>
-                            <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=experimental">Experimental</a></li>
-                            <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=música electrónica">Música Electrónica</a></li>
-                            <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=house">House</a></li>
+                            <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=electrónica">Electrónica</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=hip-hop">Hip-Hop</a></li>
-                            <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=rap">Rap</a></li>
-                            <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=punk rock">Punk Rock</a></li>
-                            <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=soul">Soul</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=jazz">Jazz</a></li>
                         </ul>
                     </li>
