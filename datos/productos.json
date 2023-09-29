@@ -16,7 +16,7 @@
     "disco": "Like a Virgin",
     "artista": "Madonna",
     "publicacion": 1984,
-    "genero": ["Pop"],
+    "genero": ["Rock"],
     "sello": "Sire Records",
     "portada": "like_a_virgen_portada.jpg",
     "precio": 1600
@@ -24,12 +24,12 @@
   {
     "id": 3,
     "epoca": "los-80",
-    "disco": "The Joshua Tree",
-    "artista": "U2",
+    "disco": "Music for the Masses",
+    "artista": "Depeche Mode",
     "publicacion": 1987,
-    "genero": ["Rock"],
-    "sello": "Island Records",
-    "portada": "u2_portada.jpg",
+    "genero": ["Electrónica"],
+    "sello": "Mute Records",
+    "portada": "music_for_the_masses_portada.webp",
     "precio": 1600
   },
   {
@@ -38,7 +38,7 @@
     "disco": "Nevermind",
     "artista": "Nirvana",
     "publicacion": 1991,
-    "genero": ["Rock alternativo", "Grunge"],
+    "genero": ["Pop"],
     "sello": "DGC Records",
     "portada": "nevermind_portada.jpg",
     "precio": 1600
@@ -49,7 +49,7 @@
     "disco": "OK Computer",
     "artista": "Radiohead",
     "publicacion": 1997,
-    "genero": ["Rock alternativo", "Experimental"],
+    "genero": ["Rock"],
     "sello": "Parlophone, Capitol Records",
     "portada": "ok_computer_portada.jpg",
     "precio": 1600
@@ -60,7 +60,7 @@
     "disco": "Homework",
     "artista": "Daft Punk",
     "publicacion": 1997,
-    "genero": ["Música electrónica", "House"],
+    "genero": ["Electrónica"],
     "sello": "Virgin Records",
     "portada": "homework_portada.webp",
     "precio": 1600
@@ -71,7 +71,7 @@
     "disco": "The Marshall Mathers LP",
     "artista": "Eminem",
     "publicacion": 2000,
-    "genero": ["Hip-Hop", "Rap"],
+    "genero": ["Hip-Hop"],
     "sello": "Aftermath Entertainment",
     "portada": "marshall_matters_portada.jpg",
     "precio": 1600
@@ -82,7 +82,7 @@
     "disco": "American Idiot",
     "artista": "Green Day",
     "publicacion": 2004,
-    "genero": ["Punk rock", "Rock alternativo"],
+    "genero": ["Rock"],
     "sello": "Reprise Records",
     "portada": "american_idiot_portada.webp",
     "precio": 1600
@@ -93,9 +93,75 @@
     "disco": "Back to Black",
     "artista": "Amy Winehouse",
     "publicacion": 2006,
-    "genero": ["Soul", "R&B", "Jazz"],
-    "sello": " Island Records",
+    "genero": ["Jazz"],
+    "sello": "Island Records",
     "portada": "black_to_black_portada.jpg",
     "precio": 1600
-  }    
+  },
+  {
+    "id": 10,
+    "epoca": "los-80",
+    "disco": "Black Codes",
+    "artista": "Wynton Maralis",
+    "publicacion": 1985,
+    "genero": ["Jazz"],
+    "sello": "Columbia Records",
+    "portada": "wynton_marsalis.jpg",
+    "precio": 1600
+  },
+  {
+    "id": 11,
+    "epoca": "los-90",
+    "disco": "Spice",
+    "artista": "Spice Girls",
+    "publicacion": 1996,
+    "genero": ["Pop"],
+    "sello": "Virgin Records",
+    "portada": "spice_portada.jpg",
+    "precio": 1600
+  },
+  {
+    "id": 12,
+    "epoca": "los-2000",
+    "disco": "Cross",
+    "artista": "Justice",
+    "publicacion": 2000,
+    "genero": ["Electrónica"],
+    "sello": "Ed Banger Records",
+    "portada": "cross_portada.jpg",
+    "precio": 1600
+  },
+  {
+    "id": 13,
+    "epoca": "los-80",
+    "disco": "The Köln Concert",
+    "artista": "Keith Jarrett",
+    "publicacion": 1984,
+    "genero": ["Jazz"],
+    "sello": "ECM Records",
+    "portada": "the_koln_concert.jpg",
+    "precio": 1600
+  },
+  {
+    "id": 14,
+    "epoca": "los-90",
+    "disco": "Illmatic",
+    "artista": "Nas",
+    "publicacion": 1994,
+    "genero": ["Hip-Hop"],
+    "sello": "Columbia Records",
+    "portada": "illmatic_portada.jpg",
+    "precio": 1600
+  },
+  {
+    "id": 15,
+    "epoca": "los-2000",
+    "disco": "The Blueprint",
+    "artista": "Jay-Z",
+    "publicacion": 2001,
+    "genero": ["Hip-Hop"],
+    "sello": "Roc-A-Fella Records",
+    "portada": "the_blueprint.jpg",
+    "precio": 1600
+  }
 ]
