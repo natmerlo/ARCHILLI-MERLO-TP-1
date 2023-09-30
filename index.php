@@ -23,6 +23,9 @@ $secciones_validas = [
     ],
     "catalogo_x_genero" => [
         "titulo" => "catálogo por genero"
+    ],
+    "contacto" => [
+        "titulo" => "Contacto"
     ]
 ];
 
@@ -121,6 +124,10 @@ if (!array_key_exists($seccion, $secciones_validas)) {
                     </li>
 
                     <li class="nav-item">
+                        <a class="nav-link active" href="index.php?sec=contacto">Contacto</a>
+                    </li>
+
+                    <li class="nav-item">
                         <a class="nav-link active" href="index.php?sec=envios">Envíos</a>
                     </li>
                 </ul>
@@ -150,37 +157,24 @@ if (!array_key_exists($seccion, $secciones_validas)) {
             <!--Grid row-->
             <div class="row text-center pt-5">
             <!--Grid column-->
-            <div class="col">
-                <p class="text-uppercase">Archilli Matias</p>
-
-                <ul>
-                    <li>
-                        DNI: 42.536.278
-                    </li>
-                    <li>
-                        Correo: matias.archilli@davinci.edu.ar
-                    </li>
-                    <li>
-                        Edad: 23 años
-                    </li>
+            <div class="col py-2">
+                <ul class="list-group">
+                    <li class="list-group-item"><span class="text-uppercase">Archilli Matias</span></li>
+                    <li class="list-group-item"><img src="img/perfil-archilli.png" class="img-fluid" alt="Alumno Archilli Matias"></li>
+                    <li class="list-group-item">DNI: 42.536.278</li>
+                    <li class="list-group-item">Correo: matias.archilli@davinci.edu.ar</li>
+                    <li class="list-group-item">Edad: 23 años</li>
                 </ul>
             </div>
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col">
-                <p class="text-uppercase">Natalia Merlo</p>
-
-                <ul>
-                    <li>
-                        DNI: 38.892.597
-                    </li>
-                    <li>
-                        Correo: natalia.merlo@davinci.edu.ar
-                    </li>
-                    <li>
-                        Edad: 28 años
-                    </li>
+            <div class="col py-2">
+                <ul class="list-group">
+                    <li class="list-group-item"><span class="text-uppercase">Natalia Merlo</span></li>
+                    <li class="list-group-item">DNI: 38.892.597</li>
+                    <li class="list-group-item">Correo: natalia.merlo@davinci.edu.ar</li>
+                    <li class="list-group-item">Edad: 28 años</li>
                 </ul>
             </div>
             <!--Grid column-->
