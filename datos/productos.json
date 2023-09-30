@@ -8,7 +8,8 @@
     "genero": ["Pop"],
     "sello": "Epic Records",
     "portada": "thriller_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"    
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "genero": ["Rock"],
     "sello": "Sire Records",
     "portada": "like_a_virgen_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "genero": ["Electrónica"],
     "sello": "Mute Records",
     "portada": "music_masses_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "genero": ["Pop"],
     "sello": "DGC Records",
     "portada": "nevermind_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "genero": ["Rock"],
     "sello": "Parlophone, Capitol Records",
     "portada": "ok_computer_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "genero": ["Electrónica"],
     "sello": "Virgin Records",
     "portada": "homework_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "genero": ["Hip-Hop"],
     "sello": "Aftermath Entertainment",
     "portada": "marshall_matters_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "genero": ["Rock"],
     "sello": "Reprise Records",
     "portada": "american_idiot_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "genero": ["Jazz"],
     "sello": "Island Records",
     "portada": "black_to_black_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "genero": ["Jazz"],
     "sello": "Columbia Records",
     "portada": "wynton_marsalis.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "genero": ["Pop"],
     "sello": "Virgin Records",
     "portada": "spice_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 12,
@@ -129,7 +140,8 @@
     "genero": ["Electrónica"],
     "sello": "Ed Banger Records",
     "portada": "cross_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 13,
@@ -140,7 +152,8 @@
     "genero": ["Jazz"],
     "sello": "ECM Records",
     "portada": "the_koln_concert.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 14,
@@ -151,7 +164,8 @@
     "genero": ["Hip-Hop"],
     "sello": "Columbia Records",
     "portada": "illmatic_portada.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   },
   {
     "id": 15,
@@ -162,6 +176,7 @@
     "genero": ["Hip-Hop"],
     "sello": "Roc-A-Fella Records",
     "portada": "the_blueprint.jpg",
-    "precio": 1600
+    "precio": 1600,
+    "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ut vel sed praesentium eos distinctio ipsum, perferendis blanditiis accusantium, odio nihil molestias, et rerum soluta commodi sint nulla autem nostrum?"
   }
 ]

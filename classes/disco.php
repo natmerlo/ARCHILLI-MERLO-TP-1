@@ -9,6 +9,7 @@ class Disco {
     private $sello;
     private $portada;
     private $precio;
+    private $descripcion;
 
     /**
      * Devuelve el catalogo de discos completo
@@ -33,6 +34,7 @@ class Disco {
             $disco->sello = $value->sello;
             $disco->portada = $value->portada;
             $disco->precio = $value->precio;
+            $disco->descripcion = $value->descripcion;
 
             $catalogo[] = $disco;
         }
@@ -174,6 +176,14 @@ class Disco {
     public function getPrecio()
     {
         return $this->precio;
+    }
+
+    /**
+     * Get the value of descripcion
+     */
+    public function getDescripcion()
+    {
+        return $this->descripcion;
     }
 
 

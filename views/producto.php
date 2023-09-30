@@ -32,7 +32,7 @@ $disco = $objetoDisco->catalogo_por_id($id);
                                 <li class="list-group-item"><span class="fw-bold">Artista:</span> <?= $disco->getArtista(); ?></li>
                                 <li class="list-group-item"><span class="fw-bold">Sello:</span> <?= $disco->getSello(); ?></li>
                                 <li class="list-group-item"><span class="fw-bold">Publicación:</span> <?= $disco->getPublicacion(); ?></li>
-                                <li class="list-group-item"><span class="fw-bold">Generos</span></li>
+                                <li class="list-group-item"><span class="fw-bold">Genero:</span></li>
                                 <li class="list-group-item">
                                     <ul class="list-group list-group-flush">
                                         <?PHP foreach ($disco->getGenero() as $genero) { ?>
@@ -40,6 +40,8 @@ $disco = $objetoDisco->catalogo_por_id($id);
                                         <?PHP } ?>
                                     </ul>
                                 </li>
+                                <li class="list-group-item"><?= $disco->getDescripcion(); ?></li>
+                                
                             </ul>
 
                             <div class="card-body flex-grow-0 mt-auto">
