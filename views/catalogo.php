@@ -12,7 +12,7 @@ $catalogo = $objetoDisco->catalogoCompleto();
 <div class=" d-flex justify-content-center py-5 px-3">
     <div>
         <h2 class="text-center mb-5 fw-bold fs-1">Conocé nuestro <?= $titulo ?></h2>
-        <div class="container px-5">
+        <div class="container px-lg-5">
 
             <!-- Si el catálogo no esta vacío...-->
             <?PHP if (!empty($catalogo)) { ?>
