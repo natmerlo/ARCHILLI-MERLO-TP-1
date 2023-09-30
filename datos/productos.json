@@ -62,7 +62,7 @@
     "publicacion": 1997,
     "genero": ["Electrónica"],
     "sello": "Virgin Records",
-    "portada": "homework_portada.webp",
+    "portada": "homework_portada.jpg",
     "precio": 1600
   },
   {
@@ -84,7 +84,7 @@
     "publicacion": 2004,
     "genero": ["Rock"],
     "sello": "Reprise Records",
-    "portada": "american_idiot_portada.webp",
+    "portada": "american_idiot_portada.jpg",
     "precio": 1600
   },
   {
@@ -117,7 +117,7 @@
     "publicacion": 1996,
     "genero": ["Pop"],
     "sello": "Virgin Records",
-    "portada": "spice_portada.png",
+    "portada": "spice_portada.jpg",
     "precio": 1600
   },
   {
@@ -139,7 +139,7 @@
     "publicacion": 1984,
     "genero": ["Jazz"],
     "sello": "ECM Records",
-    "portada": "the_koln_concert.png",
+    "portada": "the_koln_concert.jpg",
     "precio": 1600
   },
   {
