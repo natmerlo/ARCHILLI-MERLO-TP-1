@@ -19,10 +19,10 @@ $secciones_validas = [
         "titulo" => "Detalle de producto"
     ],
     "catalogo" => [
-        "titulo" => "Catalogo Completo"
+        "titulo" => "catálogo completo"
     ],
     "catalogo_x_genero" => [
-        "titulo" => "Catalogo por Genero"
+        "titulo" => "catálogo por genero"
     ]
 ];
 
@@ -53,41 +53,53 @@ if (!array_key_exists($seccion, $secciones_validas)) {
     <!-- bootstrap css-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
+    <!-- font Anton -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- font roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,500&display=swap" rel="stylesheet">
+
+
     <!-- estilos -->
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
 
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-light px-5 py-3">
+    <nav class="navbar navbar-expand-lg nav-color px-2 py-3">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="img/disco-musica.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> RetroSound
+            <a class="navbar-brand d-flex gap-2" href="index.php?sec=inicio">
+                <img src="img/disco-musica.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> 
+                <h1 class="m-auto fs-4">RetroSound</h1>
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse p-2" id="navbarSupportedContent">
 
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.php?sec=inicio">INICIO</a>
+                        <a class="nav-link active" aria-current="page" href="index.php?sec=inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.php?sec=catalogo">CATALOGO</a>
+                        <a class="nav-link active" href="index.php?sec=catalogo">Catálogo</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index.php?sec=nosotros">NOSOTROS</a>
+                        <a class="nav-link active" href="index.php?sec=nosotros">Nosotros</a>
                     </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        EPOCAS
+                        Épocas
                         </a>
 
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu nav-show">
                             <li><a class="dropdown-item" href="index.php?sec=discos&ep=los-80">Los 80'</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=discos&ep=los-90">Los 90'</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=discos&ep=los-2000">Los 2000</a></li>
@@ -96,10 +108,10 @@ if (!array_key_exists($seccion, $secciones_validas)) {
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        GENEROS
+                        Géneros
                         </a>
 
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu nav-show">
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=pop">Pop</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=rock">Rock</a></li>
                             <li><a class="dropdown-item" href="index.php?sec=catalogo_x_genero&gen=electrónica">Electrónica</a></li>
@@ -109,7 +121,7 @@ if (!array_key_exists($seccion, $secciones_validas)) {
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.php?sec=envios">ENVIOS</a>
+                        <a class="nav-link active" href="index.php?sec=envios">Envíos</a>
                     </li>
                 </ul>
             </div>
@@ -132,14 +144,14 @@ if (!array_key_exists($seccion, $secciones_validas)) {
 
     </footer> -->
 
-    <footer class="bg-light text-center text-lg-start">
+    <footer class="footerDatos">
         <!-- Grid container -->
-        <div class="container p-4">
+        <div class="container">
             <!--Grid row-->
-            <div class="row">
+            <div class="row text-center pt-5">
             <!--Grid column-->
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Archilli Matias</h5>
+            <div class="col">
+                <p class="text-uppercase">Archilli Matias</p>
 
                 <ul>
                     <li>
@@ -156,8 +168,8 @@ if (!array_key_exists($seccion, $secciones_validas)) {
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 class="text-uppercase">Natalia Merlo</h5>
+            <div class="col">
+                <p class="text-uppercase">Natalia Merlo</p>
 
                 <ul>
                     <li>
@@ -178,7 +190,7 @@ if (!array_key_exists($seccion, $secciones_validas)) {
         <!-- Grid container -->
 
         <!-- Copyright -->
-        <div class="text-center p-3 footerDatos">
+        <div class="text-center p-4 copy">
             <p>© 2023 - Programacion II - DWN3CV</p>
         </div>
         <!-- Copyright -->

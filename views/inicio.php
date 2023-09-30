@@ -1,16 +1,12 @@
-<div class="d-flex justify-content-center p-5">
-    <div>
-        <h1 class="text-center mb-5 fw-bold">¡Bienvenidos a RetroSound!</h1>
-        <div class="row mb-5 d-flex align-items-center">
-            <div class="col-7">
-                <div class="fs-5">
-                    <h2>Revive la época dorada de la música</h2>
-                    <p>Sumérgete en un viaje nostálgico a través de las décadas que definieron la música pop, rock, y electrónica. En RetroSound, celebramos y exploramos la rica herencia musical de los años 80, 90 y 2000, una época en la que la música fue verdaderamente revolucionaria.</p>
-                    <p>Ya sea que estés buscando revivir la emoción de tus años dorados o descubrir la música que definió una época, RetroSound es tu destino definitivo. Prepárate para un viaje auditivo y visual a través de las décadas que cambiaron la música para siempre.</p>
-                </div>
+<div class="row d-flex align-items-center py-5 px-3">
+    <div class="col-12 col-lg-6">
+        <h2 class="fs-1 my-4 fw-bold">¡Bienvenidos a RetroSound!</h2>
+        <h3 class="fs-4 my-4 fw-bold">Revive la época dorada de la música</h3>
 
-            </div>
-            <div class="col-5"><img src="img/tocadiscos_vintage.jpg" class="d-block mx-auto img-fluid rounded-4 "></div>
+        <div class="parrafos">
+            <p>Sumérgete en un viaje nostálgico a través de las décadas que definieron la <em>música pop, rock, y electrónica</em> y más. En <strong>RetroSound</strong>, celebramos y exploramos la rica herencia musical de los años 80, 90 y 2000, una época en la que la música fue verdaderamente revolucionaria.</p>
+            <p>Ya sea que estés buscando revivir la emoción de tus años dorados o descubrir la música que definió una época, <span>RetroSound es tu destino definitivo.</span> Prepárate para un viaje auditivo y visual a través de las décadas que cambiaron la música para siempre.</p>
         </div>
     </div>
+    <div class="col-12 col-lg-5 my-2 ms-md-auto"><img src="img/inicio.jpg" alt="tocadiscos" class="d-block img-fluid rounded-3"></div>
 </div>
