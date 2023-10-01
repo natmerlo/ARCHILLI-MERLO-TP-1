@@ -26,6 +26,9 @@ $secciones_validas = [
     ],
     "contacto" => [
         "titulo" => "Contacto"
+    ],
+    "procesar_datos_post" => [
+        "titulo" => "Datos formulario"
     ]
 ];
 
