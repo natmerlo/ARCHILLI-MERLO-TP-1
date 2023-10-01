@@ -64,6 +64,10 @@ h2>span{
     border: none;
 }
 
+button span{
+    font-weight: bold;
+}
+
 .btn-style:hover{
     background-color: #4b3d76;
     color: white;
@@ -99,4 +103,15 @@ h2>span{
 
 .text-error{
     font-family: 'Roboto';
+}
+
+
+ul li.list-group-item.perfil{
+    background-color:#ffffffcf;
+    font-weight: bold;
+}
+
+ul li.list-group-item.perfil span{
+    font-weight: 600;
+    color: #56506a;
 }

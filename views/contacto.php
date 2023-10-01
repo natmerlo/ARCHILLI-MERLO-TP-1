@@ -1,5 +1,5 @@
-<div class="row py-3">
-    <h1 class="text-center mb-4 fw-bold">¡Contanos que disco nos olvidamos de agregar!</h1>
+<div class="row py-5 px-3 align-items-center">
+    <h2 class="text-center mb-5 fw-bold fs-1">¡Contanos que disco nos olvidamos de agregar!</h2>
     <div class="col-12 col-xl-7">
        <img src="img/vinilo-contacto.webp" alt="Tocadiscos Vintage" class="w-100 rounded-3"> 
     </div>

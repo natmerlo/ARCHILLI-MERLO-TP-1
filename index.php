@@ -153,13 +153,13 @@ if (!array_key_exists($seccion, $secciones_validas)) {
 
     <footer class="footerDatos">
         <!-- Grid container -->
-        <div class="container">
+        <div class="container perfil">
             <!--Grid row-->
-            <div class="row text-center pt-5">
+            <div class="row text-center py-5 px-2 p-lg-5 justify-content-center gap-3 m-auto">
             <!--Grid column-->
-            <div class="col py-2">
+            <div class="col-12 col-md-5 py-lg-2">
                 <ul class="list-group">
-                    <li class="list-group-item"><span class="text-uppercase">Archilli Matias</span></li>
+                    <li class="list-group-item perfil"><span class="text-uppercase">Archilli Matias</span></li>
                     <li class="list-group-item"><img src="img/perfil-archilli.png" class="img-fluid" alt="Alumno Archilli Matias"></li>
                     <li class="list-group-item">DNI: 42.536.278</li>
                     <li class="list-group-item">Correo: matias.archilli@davinci.edu.ar</li>
@@ -169,9 +169,10 @@ if (!array_key_exists($seccion, $secciones_validas)) {
             <!--Grid column-->
 
             <!--Grid column-->
-            <div class="col py-2">
+            <div class="col-md-5 col-12 py-lg-2">
                 <ul class="list-group">
-                    <li class="list-group-item"><span class="text-uppercase">Natalia Merlo</span></li>
+                    <li class="list-group-item perfil"><span class="text-uppercase">Merlo Natalia</span></li>
+                    <li class="list-group-item"><img src="img/perfil-merlo.png" class="img-fluid" alt="Alumna Merlo Natalia"></li>
                     <li class="list-group-item">DNI: 38.892.597</li>
                     <li class="list-group-item">Correo: natalia.merlo@davinci.edu.ar</li>
                     <li class="list-group-item">Edad: 28 años</li>
