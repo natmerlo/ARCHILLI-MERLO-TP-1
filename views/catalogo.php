@@ -45,7 +45,6 @@ $catalogo = $objetoDisco->catalogoCompleto();
                                     <!-- link a pagina de producto -->
                                     <a href="index.php?sec=producto&id=<?= $disco->getId()?>" class="btn btn-style w-100 fw-bold">VER MÁS</a>
                                 </div>
-
                             </div>
                         </div>
 

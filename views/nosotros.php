@@ -10,9 +10,9 @@
                     <p>Nuestra misión es preservar y celebrar la rica herencia musical de estas décadas doradas. Queremos que la música de los 80, 90 y 2000 siga siendo relevante y accesible para las generaciones presentes y futuras. Nos esforzamos por ser la plataforma definitiva para los amantes de la <em>música retro</em>, brindando un espacio donde puedas:
                     
                     <ul>
-                        <li>explorar la música</li>
-                        <li>conectar con la comunidad</li>
-                        <li>aprender y descubrir</li>
+                        <li>Explorar la música</li>
+                        <li>Conectar con la comunidad</li>
+                        <li>Aprender y descubrir</li>
                     </ul>
 
                     <p>¡Gracias por ser parte de esta emocionante aventura musical! Juntos, continuaremos reviviendo la música que nunca pasa de moda.</p>   
