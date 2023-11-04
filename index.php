@@ -39,7 +39,7 @@ $seccion = isset($_GET['sec']) ? $_GET['sec'] : 'inicio';
 if (!array_key_exists($seccion, $secciones_validas)) {
     // Si no existe
     $vista = "404";
-    $titulo = "404: Página no encontrada";
+    $titulo = "404: Página no encontradaA";
 } else {
     // Si existe
     $vista = $seccion;
